@@ -4,7 +4,7 @@ from pushbullet import Pushbullet
 # API configuration
 category = 'happiness'
 api_url = 'https://api.api-ninjas.com/v1/quotes?category={}'.format(category)
-api_key = 'pUG704+N6zXeMX8KlI1Wvg==Fqt31NR5MBNzEenj'
+api_key = 'API-NINJA-KEY'
 
 # Get quotes from API
 response = requests.get(api_url, headers={'X-Api-Key': api_key})
